@@ -7,7 +7,7 @@ with
         , cast(product_name as string) as nome_produto
         , cast(quantity_per_unit as string) as quantidade_por_unidade
         , cast(unit_price as numeric) as preco_por_unidade
-        , cast(units_in_stock as string) as unidadades_em_estoque
+        , cast(units_in_stock as string) as unidades_em_estoque
         , cast(units_on_order as string) as unidades_por_ordem
         , cast(reorder_level as string) as nivel_de_reabastecimento
         , case
